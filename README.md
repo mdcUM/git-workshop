@@ -171,7 +171,7 @@ Then, on GitHub, **resolve the conversation** to let the reviewer know it's been
 
 [How to resolve a review comment (GitHub Docs)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request#resolving-conversations)
 
-Once the reviewer approves, you can **merge the PR** into `main`. 🎉
+Once the reviewer approves, you can **merge the PR** into `main`.
 
 ---
 
