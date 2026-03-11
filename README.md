@@ -58,13 +58,25 @@ cd git-workshop
 
 Each group should work on their own branch. Pick a short, descriptive name (e.g., `group-1`).
 
+**One person** creates the branch and pushes it to GitHub straight away (before making any edits), so it exists remotely for the rest of the group to pull down:
+
 ```bash
 git checkout -b your-branch-name
+git push --set-upstream origin your-branch-name
 ```
 
-> **What this does:** Creates a new branch and immediately switches to it. All commits you make will go on this branch, not `main`.
+**Everyone else** then fetches the remote branch and switches to it — note there is **no `-b` flag** here, since the branch already exists:
 
-To **verify** you're on the right branch:
+```bash
+git fetch origin
+git checkout your-branch-name
+```
+
+> **Why `git fetch` and not `git pull`?** `git pull` is actually two commands in one: it fetches changes *and* immediately merges them into your **current** branch. Since at this point you're still on `main` and the new branch doesn't exist locally yet, a `git pull` would also update `main`, which isn't necessary when we just want to grab the new branch. `git fetch` downloads all the latest information from GitHub (including any new branches) without touching your working files.
+
+> **Why not just run `git checkout -b` on every device?** The `-b` flag creates a brand new local branch from scratch. If two people each run `git checkout -b group-1`, they'll have two independent local branches that happen to share a name — they won't be in sync, and pushing will cause confusion. Fetching and checking out an existing remote branch is the correct approach for everyone after the first person.
+
+To **verify** you're all on the right branch:
 
 ```bash
 git branch
