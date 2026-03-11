@@ -1,0 +1,5 @@
+print("Group X's tech workshop ideas:")
+print("Name: Idea")
+print("Name: Idea")
+print("Name: Idea")
+print("Name: Idea")
