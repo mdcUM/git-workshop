@@ -43,7 +43,7 @@ Welcome! This workshop will introduce you to the basics of Git and GitHub throug
 
 ### Step 1 — Clone the Repository
 
-Clone the repo to get a local copy on your machine. Only **one person per group** needs to do this first; others can clone independently.
+Clone the repo to get a local copy on your machine.
 
 ```bash
 git clone https://github.com/mdcUM/git-workshop.git
