@@ -1,5 +1,5 @@
-print("Group X's tech workshop ideas:")
-print("Name: Idea")
+print("Group 1's tech workshop ideas:")
+print("Shubham: Containers (though idk how much there is to learn rather than try it out), we should have containers for MDC projects imo, also how to build using AI properly")
 print("Name: Idea")
 print("Name: Idea")
 print("Name: Idea")
