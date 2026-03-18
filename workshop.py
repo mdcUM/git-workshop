@@ -1,5 +1,5 @@
 print("Group 2's tech workshop ideas:")
 print("Jessica: AI prompt engineering")
 print("Vedant: Intro to Machine Learning")
-print("Name: Idea")
+print("Jasmine: What is a Hackathon and how does it work")
 print("Name: Idea")
