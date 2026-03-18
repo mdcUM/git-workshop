@@ -1,6 +1,6 @@
 print("Group 2's tech workshop ideas:")
 print("Jessica: AI prompt engineering")
 print("Vedant: Intro to Machine Learning")
-print("Name: Idea")
-print("Name: Idea")
 print("Sean Gretzinger: How APIs Work")
+print("Jasmine: What is a Hackathon and how does it work")
+print("Ann: what is R")
