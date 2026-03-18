@@ -1,5 +1,5 @@
-print("Group X's tech workshop ideas:")
-print("Name: Idea")
+print("Group 2's tech workshop ideas:")
+print("Jessica: AI prompt engineering")
 print("Name: Idea")
 print("Name: Idea")
 print("Name: Idea")
