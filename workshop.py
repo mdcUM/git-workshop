@@ -3,3 +3,4 @@ print("Shubham: Containers (though idk how much there is to learn rather than tr
 print("Ryo : More Internship advice (how to apply productively, timeline)")
 print("Yasin: We can have AI and ML workshops and have some coding assigments for that")
 print("JJ: Workshop on pytorch")
+print("Pavit: Do more stuff with git and github!")
